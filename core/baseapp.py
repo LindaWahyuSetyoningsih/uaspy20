@@ -5,6 +5,8 @@ class BaseApp:
             if key == "4":
                 break
             elif key == "3":
+                self.clear_book()
+            elif key == "3":
                 self.search_book()
             elif key == "2":
                 self.add_book()
